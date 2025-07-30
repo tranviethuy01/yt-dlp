@@ -273,7 +273,10 @@ from .bitchute import (
     BitChuteChannelIE,
     BitChuteIE,
 )
-from .blackboardcollaborate import BlackboardCollaborateIE
+from .blackboardcollaborate import (
+    BlackboardCollaborateIE,
+    BlackboardCollaborateLaunchIE,
+)
 from .bleacherreport import (
     BleacherReportCMSIE,
     BleacherReportIE,
@@ -568,10 +571,6 @@ from .dw import (
     DWIE,
     DWArticleIE,
 )
-from .eagleplatform import (
-    ClipYouEmbedIE,
-    EaglePlatformIE,
-)
 from .ebaumsworld import EbaumsWorldIE
 from .ebay import EbayIE
 from .egghead import (
@@ -637,6 +636,7 @@ from .fancode import (
     FancodeVodIE,
 )
 from .fathom import FathomIE
+from .faulio import FaulioLiveIE
 from .faz import FazIE
 from .fc2 import (
     FC2IE,
@@ -1554,6 +1554,7 @@ from .platzi import (
     PlatziCourseIE,
     PlatziIE,
 )
+from .playerfm import PlayerFmIE
 from .playplustv import PlayPlusTVIE
 from .playsuisse import PlaySuisseIE
 from .playtvak import PlaytvakIE
@@ -1564,6 +1565,7 @@ from .pluralsight import (
 )
 from .plutotv import PlutoTVIE
 from .plvideo import PlVideoIE
+from .plyr import PlyrEmbedIE
 from .podbayfm import (
     PodbayFMChannelIE,
     PodbayFMIE,
@@ -1779,6 +1781,7 @@ from .rtve import (
     RTVEALaCartaIE,
     RTVEAudioIE,
     RTVELiveIE,
+    RTVEProgramIE,
     RTVETelevisionIE,
 )
 from .rtvs import RTVSIE
@@ -2162,7 +2165,6 @@ from .trtworld import TrtWorldIE
 from .trueid import TrueIDIE
 from .trunews import TruNewsIE
 from .truth import TruthIE
-from .trutv import TruTVIE
 from .tube8 import Tube8IE
 from .tubetugraz import (
     TubeTuGrazIE,
@@ -2233,6 +2235,7 @@ from .tvplay import (
 from .tvplayer import TVPlayerIE
 from .tvw import (
     TvwIE,
+    TvwNewsIE,
     TvwTvChannelsIE,
 )
 from .tweakers import TweakersIE
